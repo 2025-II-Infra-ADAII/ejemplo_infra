@@ -14,6 +14,10 @@ int ejemplo::Greeter::sumar(int a, int b) {
     return a+b;
 }
 
+int ejemplo::Greeter::restar(int a, int b) {
+    return a-b;
+}
+
 int main () {
     ejemplo::Greeter greeter;
     std::cout << greeter.greeting() << std::endl;

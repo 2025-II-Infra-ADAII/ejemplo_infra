@@ -12,6 +12,13 @@ void pruebassuma() {
     assert(objGreeter.sumar(10,10) == 20);
 }
 
+void pruebaresta() {
+    ejemplo::Greeter objGreeter;
+    assert(objGreeter.restar(5,3) == 2);
+    assert(objGreeter.restar(0,0) == 0);
+    assert(objGreeter.restar(10,5) == 5);
+}
+
 int main() {
     ejemplo::Greeter greeter;
     assert(greeter.greeting().compare("Hello, World!") == 0);
