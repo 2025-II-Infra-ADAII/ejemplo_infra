@@ -17,7 +17,7 @@ void pruebaresta() {
     assert(objGreeter.restar(5,3) == 2);
     assert(objGreeter.restar(0,0) == 0);
     assert(objGreeter.restar(10,5) == 5);
-    assser(objGreeter.restar(1,3) == -2);
+    assert(objGreeter.restar(1,3) == -2);
 }
 
 int main() {
