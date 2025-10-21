@@ -9,7 +9,7 @@ void pruebassuma() {
     ejemplo::Greeter objGreeter;
     assert(objGreeter.sumar(1,2) == 3);
     assert(objGreeter.sumar(-1,1) == 0);
-    assert(objGreeter.sumar(10,10) == 25);
+    assert(objGreeter.sumar(10,10) == 20);
 }
 
 int main() {
